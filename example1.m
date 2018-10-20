@@ -1,3 +1,5 @@
+% example of solving ode 
+
 f = @(t, y) -sqrt(y);
 sol = ode45(f,[0, 1], 1);
 
