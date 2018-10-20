@@ -1,3 +1,5 @@
+% example of solving ode
+
 f = @(t, y) [2*y(1) + y(2);
             y(1) - 2*y(2) + y(3);
             y(2) - 2*y(3)];
