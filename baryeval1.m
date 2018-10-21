@@ -1,4 +1,4 @@
-% Interpolation using the barycentric weighted form of Lagrange polynomial
+% Interpolation using the barycentric weighted form of Lagrange polynomial, w = baryweights function 
 
 function y = baryeval1(tau, rho, x)
 % initialize beta as a vector of ones 
