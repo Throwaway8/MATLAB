@@ -15,6 +15,7 @@ sol2 = ode45(f, [0, 2], [y0, dy0]'); % solution on t[0,2]
 t2 = linspace(0,2,1000);
 [y2, dy2] = deval(sol2, t2);
 % plots comparing solutions
+
 figure
 subplot(1, 2, 1)
 plot(t, y(1, :), t, airy(t))
