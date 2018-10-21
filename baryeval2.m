@@ -1,8 +1,7 @@
 % =========================================================================
 % baryeval2
 %
-% AUTHOR ..... [Your name]
-% UPDATED .... [Today's date]
+% AUTHOR ..... [Thomas Devries]
 %
 % Evaluates the barycentric formula of the second kind.
 %
